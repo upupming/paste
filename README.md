@@ -12,7 +12,7 @@
 	}
 ```
 #### 358.s ####
-```c-objdump
+```assembly
     	.file	"358.c"
     	.text
     	.globl	decode2
