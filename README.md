@@ -194,7 +194,7 @@
 	}
 ```
 #### 364.s ####
-```
+```assembly
 		.file	"364.c"
 		.text
 		.globl	store_ele
@@ -236,7 +236,7 @@
 	}
 ```
 #### 366.s ####
-```
+```assembly
 		.file	"366.c"
 		.text
 		.globl	sum_col
@@ -294,7 +294,7 @@
 	}
 ```
 #### 368.s ####
-```
+```assembly
 		.file	"368.c"
 		.text
 		.globl	setVal
@@ -341,7 +341,7 @@
 	}
 ```
 #### 370.s ####
-```c
+```assembly
 		.file	"370.c"
 		.text
 		.globl	proc
