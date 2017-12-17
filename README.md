@@ -2,7 +2,7 @@
 
 ([linguee](https://cn.linguee.com)可以查询中英数据库，确保翻译正确。)
 
-ClearStory是一家数据智能公司，这个平台主要运用内存数据技术集成公司的内部和外部数据。
+[ClearStory](https://www.clearstorydata.com/about/)是一家数据智能公司，这个平台主要运用内存数据技术集成公司的内部和外部数据。
 
 |企业类型|领域|成立日期|总部|主要领导人|员工数量|
 |-|-|-|-|-|-|
@@ -44,11 +44,11 @@ ClearStory Data lets __business users__ be more self-reliant on reaching insight
 
 在[Google Trends](https://trends.google.com/trends/explore?date=all&q=clearstory%20data,tableau)上比较两者，`ClearStory`搜索量远低于`Tableau`。
 
-## 相关书籍->较少
+## 3. 相关书籍->较少
 
 没有找到相关书籍，仅有官网的一些资料。
 
-## 应用范围->理论上很多，但客户较少
+## 4. 应用范围->理论上很多，但客户较少
 
 [solutions页面](https://www.clearstorydata.com/solutions/)列出了一些应用场景:
 
