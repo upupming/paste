@@ -1,6 +1,6 @@
 # Clearstory Data
 
-([linguee](https://cn.linguee.com)可以查询数据库，确保翻译正确。)
+([linguee](https://cn.linguee.com)可以查询中英数据库，确保翻译正确。)
 
 ClearStory是一家数据智能公司，这个平台主要运用内存数据技术集成公司的内部和外部数据。
 
