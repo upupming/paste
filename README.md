@@ -1,17 +1,18 @@
 # Clearstory Data
 
-[linguee](https://cn.linguee.com)可以查询数据库，确保翻译正确。
+([linguee](https://cn.linguee.com)可以查询数据库，确保翻译正确。)
 
 ClearStory是一家数据智能公司，这个平台主要运用内存数据技术集成公司的内部和外部数据。
 
 |企业类型|领域|成立日期|总部|主要领导人|员工数量|
-|-|-|-|-|-|-|-|
+|-|-|-|-|-|-|
 |私有|数据科学|2013|美国 加利福尼亚州 圣马特奥县 门洛帕克|Sharmila Mulligan (CEO & Co-Founder) |150+|
 
 官方[about页面](https://www.clearstorydata.com/about/)
+
 第三方[wiki页面](https://verify.wiki/wiki/Clearstory_Data)
 
-## 开源性-非开源
+## 1. 开源性->非开源
 
 作为商业软件，需要付费，而且没有开放源代码。
 
@@ -23,9 +24,9 @@ ClearStory Data lets __business users__ be more self-reliant on reaching insight
 
 没有社区和其他开发者，也没有issues反馈平台，是其企业员工自己开发的。
 
-## 文档-不齐全
+## 2. 文档->不齐全
 
-[resources](https://www.clearstorydata.com/resources/)列出了一些解决方案简介和行业分析报告。
+[resources页面](https://www.clearstorydata.com/resources/)列出了一些解决方案简介和行业分析报告。
 
 当试用时会提示: 
 
@@ -37,20 +38,19 @@ ClearStory Data lets __business users__ be more self-reliant on reaching insight
 
 必须要填写个人和企业的信息才能下载到相应的文档。
 
-[博客站点](https://www.clearstorydata.com/blog/)仅有四页。
+[博客站点](https://www.clearstorydata.com/blog/)仅有4页。
 
-
-与同类平台`Tableau`相比差距较大[1](https://www.itcentralstation.com/products/comparisons/clearstory-data_vs_tableau)[2](https://www.gartner.com/reviews/market/business-intelligence-analytics-platforms/compare/clearstory-data-vs-tableau)，客户量不多，可获得信息的渠道也仅限于官网的少量信息。
+与同类平台`Tableau`相比差距较大[[1]](https://www.itcentralstation.com/products/comparisons/clearstory-data_vs_tableau)[[2]](https://www.gartner.com/reviews/market/business-intelligence-analytics-platforms/compare/clearstory-data-vs-tableau)，客户量不多，可获得信息的渠道也仅限于官网的少量信息。
 
 在[Google Trends](https://trends.google.com/trends/explore?date=all&q=clearstory%20data,tableau)上比较两者，`ClearStory`搜索量远低于`Tableau`。
 
-## 相关书籍-较少
+## 相关书籍->较少
 
 没有找到相关书籍，仅有官网的一些资料。
 
-## 应用范围-理论很多，客户较少
+## 应用范围->理论上很多，但客户较少
 
-[solutions](https://www.clearstorydata.com/solutions/)列出了一些应用场景:
+[solutions页面](https://www.clearstorydata.com/solutions/)列出了一些应用场景:
 
 1. Industry Solutions
 + CPG（consumer packaged goods): 消费者零售包装货物
@@ -70,7 +70,7 @@ ClearStory Data lets __business users__ be more self-reliant on reaching insight
 
 ClearStory Data可以智能地将不同来源的数据整合，并提供交互式业务分析方案。
 
-因此看来应用还比较广泛。
+看起来应用还比较广泛。
 
 但是从前面已经可以看出，它的客户量并不多，可能应用地也不太广泛。
 
