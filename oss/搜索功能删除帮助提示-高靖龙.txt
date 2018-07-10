@@ -1,0 +1,20 @@
+ISSUE: Disable extended help in the search field
+
+1.	What contribution are you planning to make?
+(PPT:) We are planning to remove the function that an extended help window appears telling user that it would be possible to modify his or her search expression. 
+(路源先生:) This is rather boring when using a large database. this warning message can be completely removed.
+ More experienced users will not need it. Less experienced users may have a look at the documentation or even proceed by trial and error.
+
+
+1.	What will you need to do in order to get a contribution accepted? Steps?
+(PPT&&路源先生:) 
+step1: understand the file structure to find the code part that associate with this function.
+step2: desigh tests based on junit4
+step3: change code  and make regression testing.(回归测试) 
+
+1.	What challenges do you expect to encounter?
+(PPT:)Understanding the file structure can be difficult.
+(路源先生:)Understanding the file structure can be difficult. 
+The source code lack of annotations.
+And we are unfamiliar with the conventional name notations.
+But I believe my team will overcome this challenge successfully.
