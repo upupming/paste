@@ -108,6 +108,10 @@ Maybe there are many other aspects we can improve, too. We will try to figure al
 
 ## Issue 3599: Disable extended help in the search field
 
+|The message comes out after hitting "Enter" with blank input, for just 1 second|We should delete this message|
+|:-:|:--:|
+|<img src=https://raw.githubusercontent.com/upupming/paste/master/oss/3599.gif>|<img src="https://raw.githubusercontent.com/upupming/paste/master/img/20180710215904.png"/>|
+
 ### What to contribute
 
 We are planning to remove the function that **an extended help window** appears telling user that it would be possible to modify his or her search expression. 
@@ -131,7 +135,7 @@ In order to complete the task, our biggest challenge is to read the source code 
 
 Our timelime is heavily relied on our actual progress. We promise to accompolish the first two issues, and we will continue with another two issues if we have ample time. Our ideal schedule is following:
 
-
+<img src="https://raw.githubusercontent.com/upupming/paste/master/img/20180710223235.png"/>
 
 ## References
 
