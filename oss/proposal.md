@@ -29,7 +29,7 @@ The "entry preview" has a bug.
 
 |![](https://raw.githubusercontent.com/upupming/paste/master/img/20180710115259.png)|<img src="https://raw.githubusercontent.com/upupming/paste/master/img/20180710115712.png"/>|
 |:--:|:--:|
-|When "View -> Toggle entry preview" is selected, the entry preview in the bottom shows properly.|If I deselect the "View -> Toggle entry preview", the entry preview in the bottom will disappear.|
+|When "View -> Toggle entry preview" is selected, the entry preview in the bottom shows properly.|If we deselect the "View -> Toggle entry preview", the entry preview in the bottom will disappear.|
 
 |<img src="https://raw.githubusercontent.com/upupming/paste/master/img/Selection_006.png"/>|<img src="https://raw.githubusercontent.com/upupming/paste/master/img/20180710120132.png"/>|
 |:--:|:--:|
