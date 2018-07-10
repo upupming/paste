@@ -37,19 +37,21 @@ Here we have picked four issues.
 
 ### What to contribute
 
-The "entry preview" has a bug. Not just as described in the issue.
+The "entry preview" has a bug.
 
 |![](https://raw.githubusercontent.com/upupming/paste/master/img/20180710115259.png)|<img src="https://raw.githubusercontent.com/upupming/paste/master/img/20180710115712.png"/>|
 |:--:|:--:|
-|When "View -> Toggle entry preview" is selected, the entry preview in the bottom shows properly.|If I dis-select the "View -> Toggle entry preview", the entry preview in the bottom will disappear.|
+|When "View -> Toggle entry preview" is selected, the entry preview in the bottom shows properly.|If I deselect the "View -> Toggle entry preview", the entry preview in the bottom will disappear.|
 
 |<img src="https://raw.githubusercontent.com/upupming/paste/master/img/Selection_006.png"/>|<img src="https://raw.githubusercontent.com/upupming/paste/master/img/20180710120132.png"/>|
 |:--:|:--:|
-|JabRef 4.3.1 <br> Linux 4.15.0-24-generic amd64 <br> Java 1.8.0_172 <br><hr> However, when I select another entry, the bug comes out. The entry preview shows when "View -> Toggle entry preview" is not selected.|JabRef 4.3.1 <br> Windows 10 10.0 amd64 <br> Java 1.8.0_172 <br><hr> After dis-selected, there will be no entry preview any more no matter if the "View -> Toggle entry preview" is selected or not.|
+|JabRef 4.3.1 <br> Linux 4.15.0-24-generic amd64 <br> Java 1.8.0_172 <br><hr> However, when I select another entry, the bug comes out. The entry preview shows when "View -> Toggle entry preview" is not selected.|JabRef 4.3.1 <br> Windows 10 10.0 amd64 <br> Java 1.8.0_172 <br><hr> After deselecting, there will be no entry preview any more no matter whether the "View -> Toggle entry preview" is selected or not.|
+
+Other views may have similar bugs, and we will fix them together.
 
 ### Steps to get a contribution accepted
 
-It seems it is a platform-specified issue. We will try to reproduce and fix this bug on all platforms.  Then we will review our code quality and make sure no other bugs are introduced. We will add Junit test to this view menu, too. 
+It seems it is a platform-specified issue. We will try to reproduce and fix this bug on all platforms. Then we will review our code quality and make sure no other bugs are introduced. We will add Junit test to this view menu, too. 
 
 ### Challenges to be encountered
 
