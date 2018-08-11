@@ -4,6 +4,10 @@
 
 ## Material covered in this course
 
+<hr>  
+
+**李一鸣**
+
 In the last month, we have focused on three issues(#4166, #4159, and #3823) of JabRef. We participate in the discussion and made contributions to JabRef and closed these issues. Fortunately, the tasks we completed were exactly in the order of easy to difficult. We will explain:
 
 1. what we have we contributed
@@ -23,6 +27,10 @@ When the "View -> Toggle entry preview" is selected, the entry preview in the bo
 
 This issue is opened by @mcspritz and found on JabRef 4.3.1, Linux 4.14.48-2-manjaro amd64, Java 1.8.0_172. In the beginning, we test it on JabRef 4.3.1 and reproduced it. We also found another problem that on Windows once the option is deselected, the preview will not show anymore no matter the option is selected or not in the further. Finally, we knew it's actually minimized at the bottom and the window is still there! 
 
+<hr>
+
+**孙月晴**
+
 After reading the contribution guide, we begin to test the latest build at http://builds.jabref.org/master/ , we found that the UI has changed a lot and the issue does not exist at all!
 
 ![selection_007](https://user-images.githubusercontent.com/24741764/42815066-d3fe836a-89f8-11e8-9459-a242367d10dd.png)
@@ -40,6 +48,11 @@ At first, we don't know the branches and versions of JabRef very much. So we ask
 
 So now that the issue is fixed in the developing builds, we don't need to do anything. We just report on the issue and then JabRef administrator closed this issue.
 </details>
+
+
+<hr>
+
+**高靖龙**
 
 ## Issue 4166: Move & remove file simultaneously
 
@@ -68,6 +81,10 @@ Although it works like a charm, the member of JabRef project made another optimi
 
 </details>
 
+<hr>
+
+**崔路源**
+
 ## Issue 3823: file annotation
 
 <details>
@@ -85,6 +102,10 @@ Line break at Location 1 should be deleted, but that at location 2 should be res
 We tried to find a solution to judge if the line break should be removed. After reading the code of the JabRef, we found two classes used to remove hyphens and line-breaks and generate the bibtex key (and file name). We just reused the logic and changed them for our usage. We used regular expression `(?<![.|:])%n` for wisely judging a line-break should be removed or not -- We removed all new lines which don't have preceded `.` or `:` because we think `.` or `:` is often used to start a new paragraph.
 
 Actually, the existed logic helped us a lot, but @tobiasdiez said that we should not change the existed logic because they have their own usefulness. So finally we kept the two classes untouched and adapted the new pattern only in our marking content.
+
+<hr>
+
+**赵天宇**
 
 Beside this, we also wrapped the summary content for the better margin between page/date notation and fixed the tooltip width and font size.
 
@@ -117,6 +138,10 @@ This is paragraph 3.
 ```
 
 </details>
+
+<hr>
+
+**姜梦奇**
 
 # What we have learned
 
