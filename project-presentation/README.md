@@ -8,9 +8,9 @@
 
 **李一鸣**
 
-In the last month, we have focused on three issues(#4166, #4159, and #3823) of JabRef. We participate in the discussion and made contributions to JabRef and closed these issues. Fortunately, the tasks we completed were exactly in the order of easy to difficult. We will explain:
+In the last month, our team has focused on three issues(#4166, #4159, and #3823) of JabRef. We participated in the discussion, made contributions to JabRef and closed these issues. Fortunately, the tasks we completed were exactly in the order of from easy to difficult. Today we will explain:
 
-1. what we have we contributed
+1. what we have contributed to
 2. what we have learned about contribution process
 
 # What we have contributed
@@ -99,7 +99,7 @@ After discussion, we thought if the line breaks are for another paragraph, for e
 
 Line break at Location 1 should be deleted, but that at location 2 should be reserved.
 
-We tried to find a solution to judge if the line break should be removed. After reading the code of the JabRef, we found two classes used to remove hyphens and line-breaks and generate the bibtex key (and file name). We just reused the logic and changed them for our usage. We used regular expression `(?<![.|:])%n` for wisely judging a line-break should be removed or not -- We removed all new lines which don't have preceded `.` or `:` because we think `.` or `:` is often used to start a new paragraph.
+We tried to find a solution to judge if the line break should be removed. After reading the code of the JabRef, we found two classes used to remove hyphens and line-breaks and generate the BibTeX key (and file name). We just reused the logic and changed them for our usage. We used regular expression `(?<![.|:])%n` for wisely judging a line-break should be removed or not -- We removed all new lines which don't have preceded `.` or `:` because we think `.` or `:` is often used to start a new paragraph.
 
 Actually, the existed logic helped us a lot, but @tobiasdiez said that we should not change the existed logic because they have their own usefulness. So finally we kept the two classes untouched and adapted the new pattern only in our marking content.
 
@@ -133,7 +133,7 @@ This is paragraph%n3.
 **After removed**
 ```
 This is paragraph 1.
-This is paragraph 2, and it crosses several lines, now you can see next paragraph:
+This is paragraph 2, and it crosses several lines, now you can see the next paragraph:
 This is paragraph 3.
 ```
 
