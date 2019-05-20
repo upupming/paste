@@ -1,0 +1,15 @@
+/* Code word wrap for printing PDF */
+pre div {
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+section.eqno > span {
+    width: 5em;
+    text-align: right;
+}
+
+html,body {
+  font-family: 'SimSun' 'Times New Roman';
+  background: red;
+}
